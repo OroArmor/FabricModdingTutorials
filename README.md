@@ -9,71 +9,77 @@ A repository to hold the Modding tutorials for fabric
 		a. Github
 		b. Git
 		c. IntelliJ
-		d. Mc dev plugin
-		e. Running example mod
+		d. McDev Plugin
+		e. Running Example Mod
 	2. Customizing
 		a. Changing modid
-		b. Choosing license
-		c. Setting packages
-		d. Naming
-	3. Minecraft basics
-		a. Client vs servers
-			i. Lifecycle events
+		b. Choosing a License
+		c. Setting Packages
+		d. Naming Conventions
+	3. Minecraft Fundamentals
+		a. Client vs Server
+			i. Lifecycle Events
 		b. Registries
 			i. Identifiers
 			ii. Syncing
-		c. Data vs assets
-		d. Fabric entry points
-		e. How the fabric build system works
+		c. Flyweight System (Item vs ItemStack and Block vs BlockState)
+		d. Data vs Assets
+		e. Fabric Entry Points
+		f. How the fabric build system works
 	4. Items
 		a. Item Settings
-		b. Overriding methods
-		c. Item stacks
+			i. Food Components
+		b. Overriding Methods
+		c. Item Stacks
 		d. NBT
 		e. Assets
-			i. Models + textures
-			ii. Predicate providers
+			i. Models + Textures
+			ii. Predicate Providers
 		f. Data
-			i. Crafting
+			i. Recipes
 			ii. Tags
-	5. Items +
+	5. Items++
 		a. Tools
 		b. Armor
 		c. Extensions
 		d. Enchantments
 	6. Blocks
-		a. Block settings
-		b. Overriding methods
-		c. Block states
-		d. Assets + data
+		a. Block Settings
+		b. Overriding Methods
+		c. Block States
+		d. Assets + Data
 	7. Block Entities
 		a. Registering
-		b. Basic methods
+		b. Basic Methods
 		c. Uses
 		d. Renderer
-		e. Inventory storage
+		e. Inventory Storage
 	8. Gui
 		a. Screens
-		b. Screen handlers
+		b. Screen Handlers
 	9. Entities
 		a. Basics
-		b. Tick
-		c. NBT
-		d. Renderer
+		b. Data Trackers
+		c. Tick
+		d. NBT
+		e. Renderer
+			i. Model
+		f. Block Bench
 	10. Living Entities
 		a. Attributes
-		b. Block bench
-		c. Some basic goals
-		d. Loot tables
+		b. Goals
+			i. Goal Selector vs Target Selector
+			ii. Coomon Goals
+		c. Loot Tables
 	11. Status Effects
 	12. Data expansions
 		a. Advancements
 		b. Statistics
-		c. Custom recipes
-		d. Fabric loot table api
+		c. Custom Recipes
+		d. Fabric Loot Table API
 	13. Networking
 		a. Client to Server
-			i. keybinds
+			i. Keybinds
 		b. Server to Client
 	14. Mixins (Mini-series)
 		a. Inject
@@ -84,6 +90,6 @@ A repository to hold the Modding tutorials for fabric
 		d. Accessors
 		e. Ducks
 	15. Commands
-		a. Brigadier basics
+		a. Brigadier Basics
 		b. Types
 	16. Fabric API API
