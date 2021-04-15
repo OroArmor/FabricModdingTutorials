@@ -69,7 +69,7 @@ A repository to hold the Modding tutorials for fabric
 		a. Attributes
 		b. Goals
 			i. Goal Selector vs Target Selector
-			ii. Coomon Goals
+			ii. Common Goals
 		c. Loot Tables
 	11. Status Effects
 	12. Data expansions
