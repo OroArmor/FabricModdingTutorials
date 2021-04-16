@@ -38,6 +38,7 @@ A repository to hold the Modding tutorials for fabric
 		f. Data
 			i. Recipes
 			ii. Tags
+		g. Item Groups
 	5. Items++
 		a. Tools
 		b. Armor
@@ -93,3 +94,10 @@ A repository to hold the Modding tutorials for fabric
 		a. Brigadier Basics
 		b. Types
 	16. Fabric API API
+	17. Rendering Concepts
+		a. Matrix Transformations
+		b. GL Capabilities
+		c. Vertex Consumers and Providers
+		d. Render Layers
+		e. Shaders
+		f. Rendering events and practical examples
