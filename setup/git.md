@@ -4,11 +4,15 @@
 
 Git is a version control software, which allows you to save your code in steps, like different drafts for an essay. It also allows for branches, which could represent someone else's edits to your paper, which then you merge into your main paper.
 
-For this tutorial, git and Github are not nessicary, but highly recommended. You can download git from: https://git-scm.com/.
+For this tutorial, git and Github are not nessecary, but highly recommended. You can download git from: [Git-SCM](https://git-scm.com/).
+
+For a tutorial on how git works, this [Git Tutorial](https://www.tutorialspoint.com/git/) is a useful resource.
 
 ## Github
 
-Github is an online service that allows people to store their code online for free. Github uses the git program for this. You can create an account, and once that is complete, navigate to https://github.com/fabricMC/fabric-example-mod. This example mod created by fabric is template for your mods, with everything setup.
+Github is an online service that allows people to store their code online for free. Github uses the git program for this. You can create an account, and once that is complete, navigate to [The Fabric Example Mod](https://github.com/fabricMC/fabric-example-mod). This example mod created by fabric is template for your mods, with everything setup.
+
+The reason for hosting your code publicly on Github has many reasons. Fabric believes in Free and Open Source Software (FOSS), meaning that anyone can see and edit the code. This does not allow people to steal your code, but allows them to use it to improve their own code. Hosting your code on Github also allows other users to add content to your mods that you might not be able to do, such as translations and detect and report issues with your mod, like a crash. 
 
 ## Getting the Example mod
 
@@ -16,7 +20,15 @@ Github is an online service that allows people to store their code online for fr
 
 If you did not create a Github account or installed git, click the `Code` dropdown, then click `Download ZIP`. Extract this zip file, and then you can move onto the next tutorial.
 
-## With Git
+### With Git
+
+#### Cloning from you IDE
+
+IntelliJ provides an option to clone projects directly from Github and other online git repositories. When opening IntelliJ for the first time, there will be an option `Get from Version Control`. Clicking this will allow you to directly paste a link to clone the repository. If you connect your Github account to IntellJ, which is recommended, then you can select the repository from the list of repositories from your Github account.
+
+If IntelliJ opens to a project that you have already worked on, you can follow the same process above, by clicking on `VCS` on the top toolbar, then `Get from Version Control`.
+
+#### Manually cloning the repository
 
 If you created a Github account, click the `Use this template` button. This will copy all the files into a new git repository for you. Give it a descriptive name for your mod. Once that is complete, open the folder you want to work on your mod from. This is where we will clone the git repository into. Once you have the folder open, on Windows right click, and you should see an option called `Git Bash Here`, click on that.
 
